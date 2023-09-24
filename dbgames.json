@@ -1,0 +1,53 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 2,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 3,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 4,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 5,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 6,
+      "produto": "bom se guerra",
+      "descricao": "jogo bom",
+      "foto": "jogo3.PNG",
+      "preco": 250
+    },
+    {
+      "id": 7,
+      "produto": "The Last Of Us",
+      "descricao": "awdawd",
+      "foto": "",
+      "preco": 400
+    }
+  ]
+}

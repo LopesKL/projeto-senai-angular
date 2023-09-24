@@ -7,7 +7,7 @@ main{
 }
 
 #selection-banner img{
-    height: 700px;
+    height: 600px;
 }
 
 .example-card {
@@ -19,14 +19,14 @@ mat-grid-lisr{
 }
 
 mad-grid-tile{
-    padding: 2px;
+    padding: 10px;
     border-radius: 30px;
 }
 
 mat-card-header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 mat-card-actions{
@@ -35,13 +35,13 @@ mat-card-actions{
 }
 
 mat-card img{
-    height: 400px;
+    height: 350px;
     width: 400px;
 }
 
 mat-card-actions{
-    color: green;
-    font-size: 30px;
+    color: rgb(5, 241, 16);
+    font-size: 25px;
 }
 
 h2{

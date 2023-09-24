@@ -26,84 +26,30 @@
     </section>
 
 
-
+    <br>
     <h2>Jogos PS4</h2>
-
-    <mat-grid-list cols="4">
-        <mat-grid-tile>
+    <br>
+    <mat-grid-list cols="3">
+        <mat-grid-tile *ngFor="let produto of produtos">
             <mat-card class="example-card">
-                <img mat-card-image src="./assets/img/jogo1.PNG" alt="Photo of a Shiba Inu">
+                <img mat-card-image src="./assets/img/{{produto.foto}}" alt="produto">
                 <mat-card-header>
-                    <mat-card-title>Jogo 01</mat-card-title>
+                    <mat-card-title>{{produto.produto}}</mat-card-title>
                 </mat-card-header>
                 <mat-card-content>
                     <p>
-                        Descrição do jogo
+                        {{produto.descricao}}
                     </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <p>R$ 129,99</p>
-                    <button mat-button>COMPRAR</button>
-                    <button mat-button>+ AO CARRINHO</button>
-                </mat-card-actions>
-            </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <mat-card class="example-card">
-                <img mat-card-image src="./assets/img/jogo3.PNG" alt="Photo of a Shiba Inu">
-                <mat-card-header>
-                    <mat-card-title>Jogo 01</mat-card-title>
-                </mat-card-header>
-                <mat-card-content>
                     <p>
-                        Descrição do jogo
-                    </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <p>R$ 129,99</p>
-                    <button mat-button>COMPRAR</button>
-                    <button mat-button>+ AO CARRINHO</button>
+                    <p>{{produto.preco | currency : 'BRL'}}</p>
+                    <button mat-raised-button color="primary">Comprar</button>
                 </mat-card-actions>
             </mat-card>
         </mat-grid-tile>
-        <mat-grid-tile>
-            <mat-card class="example-card">
-                <img mat-card-image src="./assets/img/jogo2.PNG" alt="Photo of a Shiba Inu">
-                <mat-card-header>
-                    <mat-card-title>Jogo 01</mat-card-title>
-                </mat-card-header>
-                <mat-card-content>
-                    <p>
-                        Descrição do jogo
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <p>R$ 129,99</p>
-                    <button mat-button>COMPRAR</button>
-                    <button mat-button>+ AO CARRINHO</button>
-                </mat-card-actions>
-            </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <mat-card class="example-card">
-                <img mat-card-image src="./assets/img/jogo2.PNG" alt="Photo of a Shiba Inu">
-                <mat-card-header>
-                    <mat-card-title>Jogo 01</mat-card-title>
-                </mat-card-header>
-                <mat-card-content>
-                    <p>
-                        Descrição do jogo
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <p>R$ 129,99</p>
-                    <button mat-button>COMPRAR</button>
-                    <button mat-button>+ AO CARRINHO</button>
-                </mat-card-actions>
-            </mat-card>
-        </mat-grid-tile>
-
     </mat-grid-list>
+
 
 
 
